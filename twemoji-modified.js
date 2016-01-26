@@ -10,6 +10,7 @@ var emojis = (function(){
 
 // youmightnotneedjquery.com
 // Wait for document to finish loading
+// IE9+
 function ready(cb) {
   if (document.readyState != 'loading'){
     cb();
